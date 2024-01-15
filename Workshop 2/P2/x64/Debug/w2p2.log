@@ -1,0 +1,19 @@
+﻿  w2p2.c
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(59,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(60,34): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(61,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(63,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(64,36): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(65,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(67,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(68,36): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(69,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(72,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(82,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(86,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(89,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(92,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(104,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(108,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\w2p2.c(111,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  w2p2.vcxproj -> D:\Seneca\IPC 144\IPC-Workshops-master\WS02\p2\x64\Debug\w2p2.exe

@@ -1,0 +1,4 @@
+﻿  w7p1.c
+D:\Seneca\IPC 144\Workshops\Workshop 7\p1\w7p1.c(48,15): warning C4101: 'k': unreferenced local variable
+D:\Seneca\IPC 144\Workshops\Workshop 7\p1\w7p1.c(48,12): warning C4101: 'j': unreferenced local variable
+  w7p1.vcxproj -> D:\Seneca\IPC 144\Workshops\Workshop 7\p1\x64\Debug\w7p1.exe

@@ -1,0 +1,4 @@
+﻿  w2p1.c
+D:\Seneca\IPC 144\Workshops\Workshop 2\P1\w2p1.c(47,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Seneca\IPC 144\Workshops\Workshop 2\P1\w2p1.c(48,28): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+  P1.vcxproj -> D:\Seneca\IPC 144\Workshops\Workshop 2\P1\x64\Debug\P1.exe

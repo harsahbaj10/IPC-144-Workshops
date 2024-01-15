@@ -1,0 +1,9 @@
+IPC 144 ZBB 
+Harsahbaj Singh 146457221
+
+1. No, I dont have any previous programming experince but I have come to Seneca with hopes that I would go on to learn new things.
+My initial thoughts about the C language and this course would be that it is somewhat difficult but if anyone is eager to learn and complete this course with dedication and commitment then things could be less difficult.
+
+2. According to my understanding the computer only understands the binary language of 0 and 1 and the compiling process is the process of turning the written english text into a binary form which the computer can read and in turn it will execute the program.
+
+3.In this course I hope to achieve some command over the C programming language as this lamguage and paticularly this field of programming is everchanging I hope that I could understand and execute the basics and keep on learning and growing forever with the time.

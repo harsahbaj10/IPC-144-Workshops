@@ -1,0 +1,37 @@
+1)  printf("\n\nThe below table shows how your preferences align to the available products:");
+    printf("\n\n--------------------+-------------+-------+");
+    printf("\n  |      Coffee     |  Packaged   | With  |");
+    printf("\nID|       Type      | Bag Weight  | Cream |");
+    printf("\n--+-----------------+-------------+-------+");
+    printf("\n 1|       %d         |      %d      |   %d   |", coffeestrength == 'l' || coffeestrength == 'L', dailyservings <= 4,  withcream == 'y' || withcream == 'Y');
+    printf("\n 2|       %d         |      %d      |   %d   |", coffeestrength == 'r' || coffeestrength == 'R', dailyservings >= 5 && dailyservings <= 9, withcream == 'n' ||            withcream == 'N');
+    printf("\n 3|       %d         |      %d      |   %d   |", coffeestrength == 'm' || coffeestrength == 'M', dailyservings >= 10, withcream == 'n' || withcream == 'N');
+
+  A) I have mainly used 2 relational expressions and those were 
+    1)Greater than equal to(>=) 
+    2)Less than equal to (<=)
+  B) There was 1 logical expressions used that was an And logical operator (&&).
+
+2) The  Part-1 output#9 can be coded in two ways the first being without the de morgan's law
+   which is as follows...
+                   productID_3 != productID_1 && productID_3 != productID_2
+    
+   and the second one is using the DeMorgan's Law which is as follows... 
+                  productID_3 == (productID_1 || productID_2)
+       In my solution I have used the first method ( the one without the DeMorgan's Law).
+
+Using the variables you used in Part-2, demonstrate two ways you can organize them, so it is optimized for easy 
+to maintain code and contributes towards clarity in how data is stored in the program.
+
+
+3) The variables used in my part-2 were
+ 
+char coffeetype1, coffeetype2, coffeetype3,creamsuggestion1,creamsuggestion2,creamsuggestion3;//variables declared coffee type and cream suggestion 
+    int bagweight1, bagweight2, bagweight3;//variables for coffee package weight
+    //variables for customer preferences 
+    char coffeestrength, withcream;
+    int dailyservings;
+
+These were the variables used if we come to the part of rearranging them then firstly they could be organized as I have done in my solution by defining all the char variables of the 'product type' first then the int variables of product type then again the char and int variables for the 'customer preferences'.Giving each variable a name that relates to what kind of thing they are going to store. For example in the case of cream, we have two kinds of variables one for the product type suggestion and the second if the customer wants their product with cream or not so I have named the product suggestion part as 'creamsuggestion' and the preference of with/without as 'withcream'
+
+Another way these variables could be stored can be using the same naming technique but instead of separating these variables and using int and char twice declaring them in a single line as their naming is unique they won't be confused with each other and keeping them in a single line will help in keeping them more organised.

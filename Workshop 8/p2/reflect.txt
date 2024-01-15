@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Harsahbaj Singh
+Student ID#: 146457221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1) Having helper functions to return values via argument or by return help us (BENEFIT) in increasing the flexibiltiy of the code,by allowing the functions to return values and also help in modifyinng the arguments.By this we can choose the most appropriate method based on our requirements as for example in some cases of the code it is easy and convinient to get the output directly from the return value but in others modifying an existing arrgument is more efficient as it gives consistency ro the overall design of the code.Ultimately this "feature" gives the developer flexibilty to adapt according to the contexts meanwhile also improving the readibilty and maintainability of the code.
+
+One negative of this approach is that if a function can do both return the value and modify the arguments it may introduce complexity and confusions,as while programming we have to keep track of how the functions interact with arguments and return the values in order to ensure that they are working correctly but this can be difficult when the code is large and this dual approach makes the code harder to understand and debug.So ultimately it increases complexity confusion and decreases the maintainability of the code.
+
+2)One function that demonstrate less than perfect cohesion is the 'calculateReportData' function as this function is responsible for deriving the record based on the cat food product data, but apart from these calculations this function is also being used to assign values to the fields of 'struct ReportData' This particular mixing of responsibilites makes this function less cohesive,in order to improve it the logic of assigning the values and calculations can be seperated into other individual functions like we could create seperate logic for the assignment of the values and calculations.
+
+One function that demonstrates coupling that could be improved is 'displayFinalAnalysis' function as it depends on 'struct CatFoodInfo' to display final analysis based on the comparison data by taking 'struct CatFoodInfo' object and an arrgument. This tight coupling makes the function very less flexible and also limits the reusability.To improve coupling in this function by creating a seperate function responsible for determining the cheapest product based on the comparison data.As this reduces coupling and seperates responsibilities of determining the cheapest product.
+
+3) The advantages of passing structures to functions are that it enhances code reusability as by passing structure to functions we can reuse the same function at different instances too.It also increases the maintanability of the code as if there is a need to modify the structure or to add new data all the updates can be done at one single place.
+
+To make the passing more efficient we can Pass structures by reference instead of passing them by value as it improves the performance of the code.
+
+The displayCatfoodData function could be improved by passing the structure through constant reference as if the function only needs to read the data and not modify it, the structure could be passed by constant reference. This inturn ensures that the function does not accidentally modify the structure.

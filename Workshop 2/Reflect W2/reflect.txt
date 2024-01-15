@@ -1,0 +1,16 @@
+1) The price1 and the corresponding converted cent values does not properly represent the intended values because the cent value should be printed in decimals but the price1,2,3 and 4 are assigned to int function and int does not print values in decimals. The other samples work as expected because they are assigned to the correct function (float or double).
+
+2)These three terms work as expected because even if the variable money is assigned to int but dividing it by 100.0 implicitly casting its data type and a result with decimal format is printed. In the second example the promotion is done explicitly as the value 100 is now assigned a certain data type to be promoted to (double) and resulting in the desired output.
+The third example is the same as second but this time instead of the value 100 the value money is explicitly is casted to (double)
+
+3)
+   a) The variable result = money/100 explicitly have a value 72.45 but as it is assigned to int function it wont be printed in the decimal format it would either be printed as 72 trunicating the rest value or as 0.00 because the data type would be deemed invalid.
+
+b) The values displayed for sample 1,2,3 and 4 are written respectively
+   $0.00
+   $72
+   $0.00
+   $72
+
+c) The samples 1 and 3 do not work as expected because the value money is assigned to int but the output is being forced to be printed using %.2lf which is exclusive for float and double values and no means of casting is used resulting the output to be printed as 0.00
+  
